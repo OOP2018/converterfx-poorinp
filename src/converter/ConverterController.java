@@ -80,6 +80,9 @@ public class ConverterController {
 		}
 	}
 	
+	/**
+	 * Clear both text fields box.
+	 */
 	public void handleClear(ActionEvent event) {
 		textfield1.clear();
 		textfield2.clear();

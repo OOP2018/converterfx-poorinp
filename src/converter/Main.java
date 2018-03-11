@@ -6,8 +6,13 @@ import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 
-
+/**
+ * Main to start and show GUI for converter.
+ * @author Poorin Pichayamongkol
+ */
 public class Main extends Application {
+	
+	//initializing the UI
 	@Override
 	public void start(Stage stage) {
 		try {
@@ -21,6 +26,7 @@ public class Main extends Application {
 		}
 	}
 	
+	//launch the application
 	public static void main(String[] args) {
 		launch(args);
 	}
